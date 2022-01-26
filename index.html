@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ShootGame</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+  <div class="d-flex">
+  <div> <button onclick="startGame()"> Start Shooting </button> </div>
+  <div class='mark'><p id="currentPlayer"></p></div>
+  </div>
+
+ <div id="result"></div>
+  <table border=1>
+ <tr>
+   <th>Player Name</th>
+   <th>Current Round</th>
+   <th>Health <br />(100-Opponent's Score.)</th>
+   <th>Current Round Score</th>
+   <th> wins </th>
+  </tr>
+  
+  <tr>
+   <td>Player 1</td>
+   <td id="roundNo-1">1</td>
+   <td id="Player1-Health">100</td>
+   <td id="Player1-Score">0</td>
+   <td id="Player1-wons">0</td>
+  </tr>
+  
+  <tr>
+   <td>Player 2</td>
+   <td id="roundNo-2">1</td>
+   <td id="Player2-Health">100</td>
+   <td id="Player2-Score">0</td>
+   <td id="Player2-wons">0</td>
+  </tr>
+  </table>
+  <script src="./js/index.js"></script>
+  </body>
+  </html>
